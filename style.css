@@ -1,0 +1,92 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+p {
+    display: none;
+}
+
+.navigation {
+    width: 100vw;
+    background: #000000;
+    padding: 1%;
+}
+
+#logo {
+    height: 6%;
+}
+
+.textBox {
+    font-size: 14px;
+    height: 30px;
+    width: 300px;
+}
+
+.content {
+    width: 50%;
+    padding-top: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    /*display: inline;*/
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border-radius: 6px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.orange {
+    background: #F89721;
+}
+
+.dBlue {
+    background: #0D242B;
+}
+
+.mBlue {
+    background: #0481CA;
+}
+
+.lBlue {
+    background: #03A2EF;
+}
+
+.silver {
+    background: #E3E9ED;
+}
+
+.popup {
+    top: 50px;
+    /*padding-left: -25%;*/
+    position: relative;
+    /*display: inline-block;*/
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* The actual popup */
+
+.popuptext {
+    display: none;
+    width: 400px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 20px;
+}

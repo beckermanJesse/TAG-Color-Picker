@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <img id="logo" src="img/tagTextLogo.svg" />
+    </nav>
+
+    <p id="orange">#F89721</p>
+    <p id="dBlue">#0D242B</p>
+    <p id="mBlue">#0481CA</p>
+    <p id="lBlue">#03A2EF</p>
+    <p id="silver">#E3E9ED</p>
+    <div class="content">
+        <button class="orange" onclick="copyToClipboard('#orange'); myFunction()"></button>
+        <button class="dBlue" onclick="copyToClipboard('#dBlue'); myFunction()"></button>
+        <button class="mBlue" onclick="copyToClipboard('#mBlue'); myFunction()"></button>
+        <button class="lBlue" onclick="copyToClipboard('#lBlue'); myFunction()"></button>
+        <button class="silver" onclick="copyToClipboard('#silver'); myFunction()"></button>
+        <br>
+        <input class="textBox" type="text" id="" placeholder="Test Me!" />
+
+        <div class="popup">
+            <span class="popuptext" id="myPopup">Text Copied to Clipboard!</span>
+        </div>
+    </div>
+</body>
+
+</html>
